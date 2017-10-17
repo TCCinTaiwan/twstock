@@ -131,11 +131,11 @@ class BestFourPoint(object):
         return None
 
 
-class StochastiOscillator(object): # 隨機震盪指標
-    """A Stochasti Oscillator(KD) object"""
+class StochasticOscillator(object): # 隨機震盪指標
+    """A Stochastic Oscillator(KD) object"""
 
     def __init__(self, stock, periods=9, smoothing_versus=3, period='day', high=80, low=20, realtime_data=None):
-        """Initialize Stochasti Oscillator
+        """Initialize Stochastic Oscillator
 
         Args:
             stock: twstock.Stock.
@@ -159,7 +159,7 @@ class StochastiOscillator(object): # 隨機震盪指標
         self.calc()
 
     def calc(self, start=0):
-        """Calculate Stochasti Oscillator
+        """Calculate Stochastic Oscillator
 
         Args:
             start: which row start calculating.
