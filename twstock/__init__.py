@@ -6,7 +6,7 @@ from twstock import cli
 from twstock import mock
 from twstock import realtime
 
-from twstock.analytics import BestFourPoint, StochastiOscillator
+from twstock.analytics import BestFourPoint, StochasticOscillator
 from twstock.codes import twse, tpex, codes
 from twstock.stock import Stock
 
